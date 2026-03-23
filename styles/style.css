@@ -5,11 +5,6 @@
   padding: 92px 24px;
 }
 
-.header__menu {
-  
-}
-
-
 .header__links-list {
   display: flex;
   gap: 32px;
@@ -58,31 +53,27 @@
   justify-self: end; 
 }
 
-
 .cover { 
   position:relative;
   min-height: 750px;
-
-  background-image: url("./images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-
   padding: 180px 50px;
-
   display:flex;
   flex-direction: column;
-
   justify-content: space-between;
-
   margin-top:0;
   margin-bottom: 300px;
 }
+
 .overlay{
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.047);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index:1;
 }
+
 .cover__title {
   position: relative;
   z-index: 2;
@@ -94,12 +85,23 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .align-text{
   display:block;
 }
-.aligned-text_left { text-align: left; }
-.aligned-text_center { text-align: center; }
-.aligned-text_right { text-align: right; }
+
+.aligned-text_left { 
+  text-align: left;
+ }
+
+.aligned-text_center { 
+  text-align: center; 
+}
+
+.aligned-text_right { 
+  text-align: right;
+ }
+
 .letter-spacing-extended {
   letter-spacing: 0.3em; 
 }
@@ -146,7 +148,7 @@
 .lots__card-list-item {
   flex-grow: 1; 
   width: 334px; 
-  min-height: 450px; 
+  min-height: 596px; 
 }
 
 .card-link {
@@ -168,25 +170,21 @@
 }
 
 .card_type_film {
-  background-image: url("./images/card-lot-01.jpg");
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
-  background-image: url("./images/card-lot-02.jpg");
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-  background-image: url("./images/card-lot-03.jpg");
-}
-
-
-.card .overlay {
-  z-index: 1; 
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .card__title {
   position: relative;
   z-index: 2; 
+  font-family: inherit;
   font-size: 22px;
   line-height: 1.2;
   text-decoration: underline; 
@@ -200,7 +198,6 @@
   font-size: 20px;
   line-height: 1.2;
 }
-
 
 .lots__look-more-link {
   display: block;
@@ -219,20 +216,13 @@
   align-items: start;
 }
 
-.about__column {
-  
-}
-
-
 .about__logo {
   background-color: #000;
   width: 240px;
   height: 240px;
   border-radius: 50%; 
-  
   justify-self: center; 
   margin: 0 auto;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,13 +267,11 @@
   gap: 20px;
 }
 
-
 .footer__address {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-
 
 .footer__menu {
   white-space: nowrap; 
@@ -306,7 +294,6 @@
 .footer__menu-link_active {
   text-decoration: none; 
 }
-
 
 .footer__social-list {
   display: flex;
