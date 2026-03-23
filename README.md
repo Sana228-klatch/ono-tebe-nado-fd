@@ -1,1 +1,1 @@
-https://github.com/Sana228-klatch/ono-tebe-nado/tree/main/styles
+https://github.com/Sana228-klatch/ono-tebe-nado
